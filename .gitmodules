@@ -4,3 +4,6 @@
 [submodule "ros2_ws/src/motion_capture_tracking"]
 	path = ros2_ws/src/motion_capture_tracking
 	url = https://github.com/darren-chiu/motion_capture_tracking.git
+[submodule "crazyflie-firmware"]
+	path = crazyflie-firmware
+	url = https://github.com/darren-chiu/crazyflie-firmware.git
