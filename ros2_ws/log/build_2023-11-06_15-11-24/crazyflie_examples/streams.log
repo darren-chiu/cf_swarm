@@ -1,0 +1,83 @@
+[0.039s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[0.091s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.092s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.266s] running install_scripts
+[0.266s] running egg_info
+[0.267s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.267s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.267s]   warnings.warn(
+[0.267s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.267s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.267s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.269s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.269s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.283s] running egg_info
+[0.283s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.284s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.284s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.284s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.285s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.286s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.287s] Installing cmd_full_state script to scripts
+[0.287s] Installing figure8 script to scripts
+[0.287s] Installing hello_world script to scripts
+[0.287s] Installing multi_trajectory script to scripts
+[0.287s] Installing nice_hover script to scripts
+[0.287s] Installing set_param script to scripts
+[0.291s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[0.311s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[0.321s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[0.344s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples
+[0.350s] -- Install configuration: ""
+[0.350s] -- Execute custom install script
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[0.351s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[0.352s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/__init__.py
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/cmd_full_state.py
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data/figure8.csv
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/figure8.py
+[0.353s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/hello_world.py
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/multi_trajectory.py
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/nice_hover.py
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/set_param.py
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[0.354s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[0.355s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[0.356s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[0.357s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[0.357s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[0.366s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[0.366s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[0.366s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[0.366s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[0.390s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples'...
+[0.390s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data'...
+[0.391s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data/multi_trajectory'...
+[0.396s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples
