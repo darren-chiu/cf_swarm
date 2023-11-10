@@ -1,7 +1,7 @@
 # generated from
 # ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
 
-set(install_manifest "/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/symlink_install_manifest.txt")
+set(install_manifest "/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/symlink_install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find symlink install manifest: ${install_manifest}")
 endif()

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (crazyflie_interfaces) JobQueued: {'identifier': 'crazyflie_interfaces', 'dependencies': OrderedDict()}
+[0.000560] (motion_capture_tracking_interfaces) JobQueued: {'identifier': 'motion_capture_tracking_interfaces', 'dependencies': OrderedDict()}
+[0.000619] (crazyflie) JobQueued: {'identifier': 'crazyflie', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces'), ('motion_capture_tracking_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces')])}
+[0.000694] (crazyflie_py) JobQueued: {'identifier': 'crazyflie_py', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces')])}
+[0.000755] (crazyflie_sim) JobQueued: {'identifier': 'crazyflie_sim', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces')])}
+[0.000820] (motion_capture_tracking) JobQueued: {'identifier': 'motion_capture_tracking', 'dependencies': OrderedDict([('motion_capture_tracking_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces')])}
+[0.000907] (crazyflie_examples) JobQueued: {'identifier': 'crazyflie_examples', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces'), ('crazyflie_py', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py')])}
+[0.000988] (crazyflie_interfaces) JobStarted: {'identifier': 'crazyflie_interfaces'}
+[0.100004] (-) TimerEvent: {}
+[0.200828] (-) TimerEvent: {}
+[0.263159] (motion_capture_tracking_interfaces) JobStarted: {'identifier': 'motion_capture_tracking_interfaces'}
+[0.301005] (-) TimerEvent: {}
+[0.401904] (-) TimerEvent: {}
+[0.502798] (-) TimerEvent: {}
+[0.543471] (crazyflie_interfaces) JobProgress: {'identifier': 'crazyflie_interfaces', 'progress': 'cmake'}
+[0.544284] (crazyflie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces'], 'cwd': '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'darrenchiu'), ('SSH_AGENT_PID', '2211'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/darrenchiu'), ('OLDPWD', '/home/darrenchiu/Documents/cf_swarm'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(crazyflie) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '2031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1011/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'darrenchiu'), ('JOURNAL_STREAM', '8:47036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'darrenchiu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/darrenchiu/crazyflie/bin:/home/darrenchiu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/warehouse:@/tmp/.ICE-unix/2246,unix/warehouse:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '9d89b791b74946e59474de97c58a5e6e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/40eae542_ccb4_4b7a_b7c9_fc67f867f165'), ('XDG_RUNTIME_DIR', '/run/user/1011'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1011/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1011/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1011/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/darrenchiu/crazyflie'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/galactic')]), 'shell': False}
+[0.552786] (motion_capture_tracking_interfaces) JobProgress: {'identifier': 'motion_capture_tracking_interfaces', 'progress': 'cmake'}
+[0.553284] (motion_capture_tracking_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces'], 'cwd': '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'darrenchiu'), ('SSH_AGENT_PID', '2211'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/darrenchiu'), ('OLDPWD', '/home/darrenchiu/Documents/cf_swarm'), ('DESKTOP_SESSION', 'ubuntu'), ('OH_SDK_BASE', '/opt/OpenHaptics/Developer/3.4-0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(crazyflie) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('MANAGERPID', '2031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1011/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'darrenchiu'), ('JOURNAL_STREAM', '8:47036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'darrenchiu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/darrenchiu/crazyflie/bin:/home/darrenchiu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/warehouse:@/tmp/.ICE-unix/2246,unix/warehouse:/tmp/.ICE-unix/2246'), ('INVOCATION_ID', '9d89b791b74946e59474de97c58a5e6e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/40eae542_ccb4_4b7a_b7c9_fc67f867f165'), ('XDG_RUNTIME_DIR', '/run/user/1011'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1011/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AUTH_SOCK', '/run/user/1011/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1011/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/darrenchiu/crazyflie'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.8/site-packages:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/galactic')]), 'shell': False}
+[0.602995] (-) TimerEvent: {}
+[0.704434] (-) TimerEvent: {}
+[0.724110] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.724449] (crazyflie_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.803752] (-) TimerEvent: {}
+[0.882039] (crazyflie_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.884737] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.894081] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.894632] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.903887] (-) TimerEvent: {}
+[1.004327] (-) TimerEvent: {}
+[1.015937] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.019073] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.019454] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.021558] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104509] (-) TimerEvent: {}
+[1.146842] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.149848] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.169334] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.170043] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.173147] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.173714] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.174334] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.177584] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.204637] (-) TimerEvent: {}
+[1.305068] (-) TimerEvent: {}
+[1.312514] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.314026] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.316693] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.319505] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.405271] (-) TimerEvent: {}
+[1.453233] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.459492] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.477624] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.478540] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.481019] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.481889] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.483590] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.484673] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.505397] (-) TimerEvent: {}
+[1.523641] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.523943] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/darrenchiu/crazyflie/bin/python3\n'}
+[1.525757] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.526076] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/darrenchiu/crazyflie/bin/python3\n'}
+[1.598332] (crazyflie_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.605543] (-) TimerEvent: {}
+[1.606813] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.641321] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)\n'}
+[1.643021] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)\n'}
+[1.689454] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.689824] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.700246] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.700507] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.705685] (-) TimerEvent: {}
+[1.806092] (-) TimerEvent: {}
+[1.852353] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.852804] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.904661] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.906234] (-) TimerEvent: {}
+[1.906514] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[2.006328] (-) TimerEvent: {}
+[2.043610] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.043904] (crazyflie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.098539] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[2.098783] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[2.106416] (-) TimerEvent: {}
+[2.201964] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.202260] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.206516] (-) TimerEvent: {}
+[2.260960] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found version "3.8.10") \n'}
+[2.263744] (crazyflie_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found version "3.8.10") \n'}
+[2.306621] (-) TimerEvent: {}
+[2.328930] (crazyflie_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.329615] (crazyflie_interfaces) StderrLine: {'line': b'  execute_process(/home/darrenchiu/crazyflie/bin/python3 -m rosidl_adapter\n'}
+[2.329804] (crazyflie_interfaces) StderrLine: {'line': b'  --package-name crazyflie_interfaces --arguments-file\n'}
+[2.329972] (crazyflie_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_adapter__arguments__crazyflie_interfaces.json\n'}
+[2.330168] (crazyflie_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.330345] (crazyflie_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces\n'}
+[2.330500] (crazyflie_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.330651] (crazyflie_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces.idls)\n'}
+[2.330802] (crazyflie_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.330952] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.331102] (crazyflie_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.331250] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.331400] (crazyflie_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.331568] (crazyflie_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.331720] (crazyflie_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.331870] (crazyflie_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.332017] (crazyflie_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.332168] (crazyflie_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.332316] (crazyflie_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.332465] (crazyflie_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.332614] (crazyflie_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[2.332761] (crazyflie_interfaces) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[2.332906] (crazyflie_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[2.333066] (crazyflie_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[2.333216] (crazyflie_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[2.333459] (crazyflie_interfaces) StderrLine: {'line': b'      import em\n'}
+[2.333618] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.333767] (crazyflie_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[2.333916] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.334061] (crazyflie_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.334291] (crazyflie_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.334445] (crazyflie_interfaces) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_generate_interfaces)\n'}
+[2.334592] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.334747] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[2.334891] (motion_capture_tracking_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.335069] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  execute_process(/home/darrenchiu/crazyflie/bin/python3 -m rosidl_adapter\n'}
+[2.335221] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  --package-name motion_capture_tracking_interfaces --arguments-file\n'}
+[2.335371] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter__arguments__motion_capture_tracking_interfaces.json\n'}
+[2.335523] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.335672] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces\n'}
+[2.335829] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.335976] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces.idls)\n'}
+[2.336125] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.336273] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.336422] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.336585] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.336733] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[2.336882] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.337030] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[2.337180] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.337328] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.337477] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.337629] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.337778] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.337928] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[2.338087] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[2.338252] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[2.338403] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[2.338551] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[2.338697] (motion_capture_tracking_interfaces) StderrLine: {'line': b'      import em\n'}
+[2.338844] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.338990] (motion_capture_tracking_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[2.339138] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.339285] (motion_capture_tracking_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.339431] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.339580] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_generate_interfaces)\n'}
+[2.339726] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.339871] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[2.340016] (crazyflie_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.340183] (crazyflie_interfaces) StdoutLine: {'line': b'See also "/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.340340] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.340494] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'See also "/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.347252] (motion_capture_tracking_interfaces) CommandEnded: {'returncode': 1}
+[2.354503] (crazyflie_interfaces) CommandEnded: {'returncode': 1}
+[2.407091] (-) TimerEvent: {}
+[2.507878] (-) TimerEvent: {}
+[2.571778] (motion_capture_tracking_interfaces) JobEnded: {'identifier': 'motion_capture_tracking_interfaces', 'rc': 1}
+[2.608052] (-) TimerEvent: {}
+[2.709306] (-) TimerEvent: {}
+[2.740517] (crazyflie_interfaces) JobEnded: {'identifier': 'crazyflie_interfaces', 'rc': 1}
+[2.751701] (crazyflie) JobSkipped: {'identifier': 'crazyflie'}
+[2.751842] (crazyflie_py) JobSkipped: {'identifier': 'crazyflie_py'}
+[2.751917] (crazyflie_sim) JobSkipped: {'identifier': 'crazyflie_sim'}
+[2.751969] (motion_capture_tracking) JobSkipped: {'identifier': 'motion_capture_tracking'}
+[2.752027] (crazyflie_examples) JobSkipped: {'identifier': 'crazyflie_examples'}
+[2.752084] (-) EventReactorShutdown: {}

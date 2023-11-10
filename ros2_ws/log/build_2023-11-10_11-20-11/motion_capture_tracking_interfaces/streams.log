@@ -1,0 +1,65 @@
+[0.292s] Invoking command in '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/galactic PS1=(crazyflie) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/darrenchiu/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces
+[0.461s] -- The C compiler identification is GNU 9.4.0
+[0.621s] -- The CXX compiler identification is GNU 9.4.0
+[0.631s] -- Check for working C compiler: /usr/bin/cc
+[0.756s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.758s] -- Detecting C compiler ABI info
+[0.887s] -- Detecting C compiler ABI info - done
+[0.910s] -- Detecting C compile features
+[0.910s] -- Detecting C compile features - done
+[0.914s] -- Check for working CXX compiler: /usr/bin/c++
+[1.049s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.051s] -- Detecting CXX compiler ABI info
+[1.190s] -- Detecting CXX compiler ABI info - done
+[1.214s] -- Detecting CXX compile features
+[1.215s] -- Detecting CXX compile features - done
+[1.220s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.260s] -- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.261s] -- Using PYTHON_EXECUTABLE: /home/darrenchiu/crazyflie/bin/python3
+[1.344s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.380s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[1.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.437s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.589s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.643s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.939s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.998s] -- Found PythonInterp: /home/darrenchiu/crazyflie/bin/python3 (found version "3.8.10") 
+[2.072s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.072s]   execute_process(/home/darrenchiu/crazyflie/bin/python3 -m rosidl_adapter
+[2.072s]   --package-name motion_capture_tracking_interfaces --arguments-file
+[2.072s]   /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter__arguments__motion_capture_tracking_interfaces.json
+[2.072s]   --output-dir
+[2.072s]   /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces
+[2.072s]   --output-file
+[2.073s]   /home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces.idls)
+[2.073s]   returned error code 1:
+[2.073s] 
+[2.073s]   Traceback (most recent call last):
+[2.073s] 
+[2.073s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2.074s]       return _run_code(code, main_globals, None,
+[2.074s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2.074s]       exec(code, run_globals)
+[2.074s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.074s]       sys.exit(main())
+[2.074s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.074s]       abs_idl_file = convert_to_idl(
+[2.075s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[2.075s]       from rosidl_adapter.msg import convert_msg_to_idl
+[2.075s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[2.075s]       from rosidl_adapter.resource import expand_template
+[2.075s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[2.075s]       import em
+[2.075s] 
+[2.076s]   ModuleNotFoundError: No module named 'em'
+[2.076s] 
+[2.076s] Call Stack (most recent call first):
+[2.076s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.076s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[2.076s] 
+[2.077s] 
+[2.077s] -- Configuring incomplete, errors occurred!
+[2.077s] See also "/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles/CMakeOutput.log".
+[2.084s] Invoked command in '/home/darrenchiu/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/galactic PS1=(crazyflie) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/darrenchiu/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darrenchiu/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces

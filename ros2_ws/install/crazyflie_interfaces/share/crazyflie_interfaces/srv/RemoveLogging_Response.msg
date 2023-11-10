@@ -1,1 +1,0 @@
-/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_cmake/srv/RemoveLogging_Response.msg
