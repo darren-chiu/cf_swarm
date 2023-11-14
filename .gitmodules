@@ -1,6 +1,0 @@
-[submodule "ros2_ws/src/crazyswarm2"]
-	path = ros2_ws/src/crazyswarm2
-	url = https://github.com/darren-chiu/crazyswarm2.git
-[submodule "crazyflie-firmware"]
-	path = crazyflie-firmware
-	url = https://github.com/darren-chiu/crazyflie-firmware.git
