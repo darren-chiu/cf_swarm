@@ -1,0 +1,4 @@
+[submodule "crazyflie-firmware"]
+	path = crazyflie-firmware
+	url = https://github.com/darren-chiu/crazyflie-firmware.git
+	branch = darren
