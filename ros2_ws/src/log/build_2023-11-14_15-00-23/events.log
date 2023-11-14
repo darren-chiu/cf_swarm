@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (crazyflie_interfaces) JobQueued: {'identifier': 'crazyflie_interfaces', 'dependencies': OrderedDict()}
+[0.000534] (motion_capture_tracking_interfaces) JobQueued: {'identifier': 'motion_capture_tracking_interfaces', 'dependencies': OrderedDict()}
+[0.000557] (crazyflie) JobQueued: {'identifier': 'crazyflie', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_interfaces'), ('motion_capture_tracking_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/motion_capture_tracking_interfaces')])}
+[0.000585] (crazyflie_py) JobQueued: {'identifier': 'crazyflie_py', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_interfaces')])}
+[0.000608] (crazyflie_sim) JobQueued: {'identifier': 'crazyflie_sim', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_interfaces')])}
+[0.000629] (motion_capture_tracking) JobQueued: {'identifier': 'motion_capture_tracking', 'dependencies': OrderedDict([('motion_capture_tracking_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/motion_capture_tracking_interfaces')])}
+[0.000651] (crazyflie_examples) JobQueued: {'identifier': 'crazyflie_examples', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_interfaces'), ('crazyflie_py', '/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_py')])}
+[0.000792] (crazyflie_interfaces) JobStarted: {'identifier': 'crazyflie_interfaces'}
+[0.018025] (motion_capture_tracking_interfaces) JobStarted: {'identifier': 'motion_capture_tracking_interfaces'}
+[0.033770] (crazyflie_interfaces) JobProgress: {'identifier': 'crazyflie_interfaces', 'progress': 'cmake'}
+[0.033934] (crazyflie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/src/install/crazyflie_interfaces'], 'cwd': '/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'darren'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/darren'), ('OLDPWD', '/home/darren/Documents/cf_swarm/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'darren'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'darren'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/darren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/darren-B450-I-AORUS-PRO-WIFI:@/tmp/.ICE-unix/1787,unix/darren-B450-I-AORUS-PRO-WIFI:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8017bdef_0c11_46ff_b940_260a52b4eed1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5JFFE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.036975] (motion_capture_tracking_interfaces) JobProgress: {'identifier': 'motion_capture_tracking_interfaces', 'progress': 'cmake'}
+[0.037106] (motion_capture_tracking_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/src/install/motion_capture_tracking_interfaces'], 'cwd': '/home/darren/Documents/cf_swarm/ros2_ws/src/build/motion_capture_tracking_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'darren'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/darren'), ('OLDPWD', '/home/darren/Documents/cf_swarm/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'darren'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'darren'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/darren/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/darren-B450-I-AORUS-PRO-WIFI:@/tmp/.ICE-unix/1787,unix/darren-B450-I-AORUS-PRO-WIFI:/tmp/.ICE-unix/1787'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8017bdef_0c11_46ff_b940_260a52b4eed1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5JFFE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/darren/Documents/cf_swarm/ros2_ws/src/build/motion_capture_tracking_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099673] (-) TimerEvent: {}
+[0.129049] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.129240] (crazyflie_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199773] (-) TimerEvent: {}
+[0.255145] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.255611] (crazyflie_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265808] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.265904] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299871] (-) TimerEvent: {}
+[0.329325] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.329675] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.335824] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.336256] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.336942] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.337319] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.337561] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.337943] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.340077] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.340979] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399970] (-) TimerEvent: {}
+[0.412444] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412652] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419092] (crazyflie_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419192] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419325] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419429] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419701] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.419785] (crazyflie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.430988] (crazyflie_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.431096] (crazyflie_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.431147] (crazyflie_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.431198] (crazyflie_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.431243] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[0.431288] (crazyflie_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.431332] (crazyflie_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.431376] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[0.431420] (crazyflie_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.431464] (crazyflie_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.431508] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[0.431552] (crazyflie_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.431596] (crazyflie_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.431640] (crazyflie_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.431684] (crazyflie_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.431728] (crazyflie_interfaces) StderrLine: {'line': b'\n'}
+[0.431772] (crazyflie_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.431816] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.431873] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.431918] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.431962] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.432006] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[0.432050] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.432094] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.432138] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[0.432186] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.432230] (motion_capture_tracking_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.432274] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[0.432317] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.432361] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.432405] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.432449] (motion_capture_tracking_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.432508] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\n'}
+[0.432554] (motion_capture_tracking_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.432598] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.432646] (motion_capture_tracking_interfaces) StdoutLine: {'line': b'See also "/home/darren/Documents/cf_swarm/ros2_ws/src/build/motion_capture_tracking_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.432699] (crazyflie_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.432748] (crazyflie_interfaces) StdoutLine: {'line': b'See also "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.434464] (crazyflie_interfaces) CommandEnded: {'returncode': 1}
+[0.435395] (motion_capture_tracking_interfaces) CommandEnded: {'returncode': 1}
+[0.469102] (crazyflie_interfaces) JobEnded: {'identifier': 'crazyflie_interfaces', 'rc': 1}
+[0.469672] (motion_capture_tracking_interfaces) JobEnded: {'identifier': 'motion_capture_tracking_interfaces', 'rc': 'SIGINT'}
+[0.479949] (crazyflie) JobSkipped: {'identifier': 'crazyflie'}
+[0.480003] (crazyflie_py) JobSkipped: {'identifier': 'crazyflie_py'}
+[0.480021] (crazyflie_sim) JobSkipped: {'identifier': 'crazyflie_sim'}
+[0.480036] (motion_capture_tracking) JobSkipped: {'identifier': 'motion_capture_tracking'}
+[0.480052] (crazyflie_examples) JobSkipped: {'identifier': 'crazyflie_examples'}
+[0.480067] (-) EventReactorShutdown: {}
