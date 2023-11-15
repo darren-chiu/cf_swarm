@@ -1,0 +1,30 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "output_dir": "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_generator_type_description/crazyflie_interfaces",
+  "idl_tuples": [
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/FullState.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/LogDataGeneric.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/Hover.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/LogBlock.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/Position.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:msg/VelocityWorld.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/GoTo.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/Land.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/NotifySetpointsStop.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/SetGroupMask.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/StartTrajectory.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/Stop.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/Takeoff.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/UpdateParams.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/UploadTrajectory.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/RemoveLogging.idl",
+    "/home/darren/Documents/cf_swarm/ros2_ws/src/build/crazyflie_interfaces/rosidl_adapter/crazyflie_interfaces:srv/AddLogging.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

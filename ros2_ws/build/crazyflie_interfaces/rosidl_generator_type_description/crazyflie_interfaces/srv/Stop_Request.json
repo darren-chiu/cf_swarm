@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "crazyflie_interfaces/srv/Stop_Request",
+      "fields": [
+        {
+          "name": "group_mask",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "crazyflie_interfaces/srv/Stop_Request",
+      "hash_string": "RIHS01_8ab0f8a177dcc7b7833b9c49acef8769b61023d3cc04cb332c435b6cb4c8d9e2"
+    }
+  ]
+}

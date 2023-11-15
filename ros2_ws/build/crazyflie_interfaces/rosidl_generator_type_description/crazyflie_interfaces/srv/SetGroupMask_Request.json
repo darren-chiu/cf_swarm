@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "crazyflie_interfaces/srv/SetGroupMask_Request",
+      "fields": [
+        {
+          "name": "group_mask",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "crazyflie_interfaces/srv/SetGroupMask_Request",
+      "hash_string": "RIHS01_666261ad74c434ae92c8be54910aa2a1f9af435ac33a8f5fb18b0380ef71065a"
+    }
+  ]
+}

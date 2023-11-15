@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "crazyflie_interfaces/srv/RemoveLogging_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "crazyflie_interfaces/srv/RemoveLogging_Response",
+      "hash_string": "RIHS01_cc7108ac8e7bd045cfcd1844dcc88ac7765ab355bb64a587992a0726360b41d2"
+    }
+  ]
+}

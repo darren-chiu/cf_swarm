@@ -1,0 +1,1 @@
+/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces/msg/NamedPose.msg

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "crazyflie_interfaces/srv/UpdateParams_Request",
+      "fields": [
+        {
+          "name": "params",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "crazyflie_interfaces/srv/UpdateParams_Request",
+      "hash_string": "RIHS01_7827df074c257a23a1581fe949f64854ed8e18e28be90495e17dabcd1a6c9b3d"
+    }
+  ]
+}
