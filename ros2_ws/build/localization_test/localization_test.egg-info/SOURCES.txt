@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+localization_test/__init__.py
+localization_test/localization_listener.py
+localization_test.egg-info/PKG-INFO
+localization_test.egg-info/SOURCES.txt
+localization_test.egg-info/dependency_links.txt
+localization_test.egg-info/entry_points.txt
+localization_test.egg-info/requires.txt
+localization_test.egg-info/top_level.txt
+localization_test.egg-info/zip-safe
+resource/localization_test

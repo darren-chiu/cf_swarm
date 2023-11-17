@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "crazyflie_interfaces/srv/detail/stop__struct.h"
 #include "crazyflie_interfaces/srv/detail/stop__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/stop__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "crazyflie_interfaces/srv/detail/stop__struct.h"
 
 #ifdef __cplusplus
 extern "C"

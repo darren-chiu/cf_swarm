@@ -1,0 +1,23 @@
+[0.561s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test': PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/build --no-deps install_data
+[0.758s] running develop
+[0.877s] running egg_info
+[0.877s] creating localization_test.egg-info
+[0.877s] writing localization_test.egg-info/PKG-INFO
+[0.877s] writing dependency_links to localization_test.egg-info/dependency_links.txt
+[0.877s] writing entry points to localization_test.egg-info/entry_points.txt
+[0.877s] writing requirements to localization_test.egg-info/requires.txt
+[0.877s] writing top-level names to localization_test.egg-info/top_level.txt
+[0.877s] writing manifest file 'localization_test.egg-info/SOURCES.txt'
+[0.878s] reading manifest file 'localization_test.egg-info/SOURCES.txt'
+[0.879s] writing manifest file 'localization_test.egg-info/SOURCES.txt'
+[0.880s] running build_ext
+[0.880s] Creating /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages/localization-test.egg-link (link to .)
+[0.880s] 
+[0.880s] Installed /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test
+[0.880s] running install_data
+[0.880s] creating /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/ament_index
+[0.880s] creating /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/ament_index/resource_index
+[0.880s] creating /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/ament_index/resource_index/packages
+[0.880s] copying resource/localization_test -> /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/ament_index/resource_index/packages
+[0.881s] copying package.xml -> /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test
+[0.901s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test' returned '0': PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/build --no-deps install_data

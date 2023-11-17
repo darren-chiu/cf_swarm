@@ -18,7 +18,6 @@
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/figure8.py
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/hello_world.py
-/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/localization_test.py
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/multi_trajectory.py
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/nice_hover.py
 /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages/crazyflie_examples/set_param.py

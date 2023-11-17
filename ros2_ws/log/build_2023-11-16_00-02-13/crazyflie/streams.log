@@ -1,0 +1,278 @@
+[0.374s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie
+[0.426s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.487s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.564s] -- Detecting C compile features
+[0.564s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.646s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.653s] -- Detecting CXX compile features
+[0.653s] -- Detecting CXX compile features - done
+[0.656s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.820s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.880s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.917s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.961s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.973s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.169s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.299s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.335s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.573s] -- Found tf2_ros: 0.31.5 (/opt/ros/iron/share/tf2_ros/cmake)
+[2.113s] -- Found rclpy: 4.1.3 (/opt/ros/iron/share/rclpy/cmake)
+[2.116s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[2.167s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.271s] -- Found crazyflie_interfaces: 2.0.0 (/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[2.424s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[2.518s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[2.523s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.596s] -- Configuring done
+[2.643s] -- Generating done
+[2.647s] -- Build files have been written to: /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie
+[2.674s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie
+[2.675s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[2.738s] [  2%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[2.740s] [ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[2.740s] [ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[2.741s] [ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[2.741s] [ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[2.742s] [ 19%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[2.742s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[2.742s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[2.742s] [ 25%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[5.451s] [ 27%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[5.537s] [ 27%] Built target crazyflieLinkCpp
+[5.558s] [ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[5.558s] [ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[7.605s] [ 36%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[7.674s] [ 36%] Built target crazyflie_cpp
+[7.699s] [ 41%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[7.699s] [ 41%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[7.699s] [ 44%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[7.700s] [ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[7.700s] [ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[7.700s] [ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[7.701s] [ 55%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[7.701s] [ 61%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[7.701s] [ 61%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[7.702s] [ 63%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[7.702s] [ 66%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[9.121s] [ 69%] [32m[1mLinking CXX executable listParams[0m
+[9.448s] [ 72%] [32m[1mLinking CXX executable setParam[0m
+[9.450s] [ 75%] [32m[1mLinking CXX executable listMemories[0m
+[9.473s] [ 75%] Built target listParams
+[9.483s] [ 77%] [32m[1mLinking CXX executable log[0m
+[9.525s] [ 80%] [32m[1mLinking CXX executable scan[0m
+[9.604s] [ 83%] [32m[1mLinking CXX executable listLogVariables[0m
+[9.668s] [ 86%] [32m[1mLinking CXX executable console[0m
+[9.761s] [ 86%] Built target listMemories
+[9.791s] [ 88%] [32m[1mLinking CXX executable battery[0m
+[9.798s] [ 91%] [32m[1mLinking CXX executable reboot[0m
+[9.810s] [ 91%] Built target scan
+[9.840s] [ 91%] Built target setParam
+[9.844s] [ 94%] [32m[1mLinking CXX executable version[0m
+[9.896s] [ 94%] Built target log
+[9.941s] [ 94%] Built target listLogVariables
+[9.984s] [ 94%] Built target console
+[10.041s] [ 94%] Built target reboot
+[10.080s] [ 94%] Built target battery
+[10.090s] [ 94%] Built target version
+[11.403s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieROS::CrazyflieROS(const string&, const string&, const string&, rclcpp::Node*, rclcpp::CallbackGroup::SharedPtr, rclcpp::CallbackGroup::SharedPtr, bool)[m[K’:
+[11.404s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:129:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Empty; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Empty> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.404s]   129 |     service_emergency_ = [01;35m[Knode->create_service<Empty>(name + "/emergency", std::bind(&CrazyflieROS::emergency, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.404s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.404s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.404s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.404s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.404s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.404s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.404s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.404s]   190 | [01;36m[KNode[m[K::create_service(
+[11.405s]       | [01;36m[K^~~~[m[K
+[11.405s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:130:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::StartTrajectory; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::StartTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::StartTrajectory_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::StartTrajectory> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.405s]   130 |     service_start_trajectory_ = [01;35m[Knode->create_service<StartTrajectory>(name + "/start_trajectory", std::bind(&CrazyflieROS::start_trajectory, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.405s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.405s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.405s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.405s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.405s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.405s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.405s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.406s]   190 | [01;36m[KNode[m[K::create_service(
+[11.406s]       | [01;36m[K^~~~[m[K
+[11.406s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:131:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::Takeoff; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::Takeoff_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::Takeoff_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::Takeoff> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.406s]   131 |     service_takeoff_ = [01;35m[Knode->create_service<Takeoff>(name + "/takeoff", std::bind(&CrazyflieROS::takeoff, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.406s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.406s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.406s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.406s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.407s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.407s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.407s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.407s]   190 | [01;36m[KNode[m[K::create_service(
+[11.407s]       | [01;36m[K^~~~[m[K
+[11.458s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:132:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::Land; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::Land_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::Land_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::Land> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.458s]   132 |     service_land_ = [01;35m[Knode->create_service<Land>(name + "/land", std::bind(&CrazyflieROS::land, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.458s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.459s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.459s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.459s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.459s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.459s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.459s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.459s]   190 | [01;36m[KNode[m[K::create_service(
+[11.459s]       | [01;36m[K^~~~[m[K
+[11.460s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:133:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::GoTo; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::GoTo_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::GoTo_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::GoTo> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.460s]   133 |     service_go_to_ = [01;35m[Knode->create_service<GoTo>(name + "/go_to", std::bind(&CrazyflieROS::go_to, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.460s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.460s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.460s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.460s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.460s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.460s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.460s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.460s]   190 | [01;36m[KNode[m[K::create_service(
+[11.460s]       | [01;36m[K^~~~[m[K
+[11.461s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:134:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::UploadTrajectory; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::UploadTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::UploadTrajectory_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::UploadTrajectory> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.461s]   134 |     service_upload_trajectory_ = [01;35m[Knode->create_service<UploadTrajectory>(name + "/upload_trajectory", std::bind(&CrazyflieROS::upload_trajectory, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.461s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.461s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.461s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.461s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.461s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.462s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.462s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.462s]   190 | [01;36m[KNode[m[K::create_service(
+[11.462s]       | [01;36m[K^~~~[m[K
+[11.462s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:135:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::NotifySetpointsStop; CallbackT = std::_Bind<void (CrazyflieROS::*(CrazyflieROS*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::NotifySetpointsStop_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::NotifySetpointsStop_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::NotifySetpointsStop> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.462s]   135 |     service_notify_setpoints_stop_ = [01;35m[Knode->create_service<NotifySetpointsStop>(name + "/notify_setpoints_stop", std::bind(&CrazyflieROS::notify_setpoints_stop, this, _1, _2), service_qos, callback_group_cf_srv)[m[K;
+[11.462s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.462s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.463s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.463s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.463s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.463s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.463s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.463s]   190 | [01;36m[KNode[m[K::create_service(
+[11.463s]       | [01;36m[K^~~~[m[K
+[11.625s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:[m[K In constructor ‘[01m[KCrazyflieServer::CrazyflieServer()[m[K’:
+[11.625s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:754:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Empty; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Empty> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.625s]   754 |     service_emergency_ = [01;35m[Kthis->create_service<Empty>("all/emergency", std::bind(&CrazyflieServer::emergency, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.625s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.625s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.626s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.626s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.626s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.626s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.626s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.626s]   190 | [01;36m[KNode[m[K::create_service(
+[11.626s]       | [01;36m[K^~~~[m[K
+[11.626s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:755:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::StartTrajectory; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::StartTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::StartTrajectory_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::StartTrajectory> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.626s]   755 |     service_start_trajectory_ = [01;35m[Kthis->create_service<StartTrajectory>("all/start_trajectory", std::bind(&CrazyflieServer::start_trajectory, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.626s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.626s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.627s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.627s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.627s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.627s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.627s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.627s]   190 | [01;36m[KNode[m[K::create_service(
+[11.627s]       | [01;36m[K^~~~[m[K
+[11.628s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:756:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::Takeoff; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::Takeoff_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::Takeoff_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::Takeoff> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.628s]   756 |     service_takeoff_ = [01;35m[Kthis->create_service<Takeoff>("all/takeoff", std::bind(&CrazyflieServer::takeoff, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.628s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.628s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.628s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.628s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.628s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.628s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.628s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.628s]   190 | [01;36m[KNode[m[K::create_service(
+[11.629s]       | [01;36m[K^~~~[m[K
+[11.629s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:757:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::Land; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::Land_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::Land_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::Land> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.629s]   757 |     service_land_ = [01;35m[Kthis->create_service<Land>("all/land", std::bind(&CrazyflieServer::land, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.629s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.629s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.629s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.630s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.630s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.630s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.630s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.630s]   190 | [01;36m[KNode[m[K::create_service(
+[11.630s]       | [01;36m[K^~~~[m[K
+[11.631s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:758:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::GoTo; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::GoTo_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::GoTo_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::GoTo> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.631s]   758 |     service_go_to_ = [01;35m[Kthis->create_service<GoTo>("all/go_to", std::bind(&CrazyflieServer::go_to, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.631s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.631s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.631s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.631s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.631s]   190 | [01;36m[KNode[m[K::create_service(
+[11.631s]       | [01;36m[K^~~~[m[K
+[11.632s] [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:759:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = crazyflie_interfaces::srv::NotifySetpointsStop; CallbackT = std::_Bind<void (CrazyflieServer::*(CrazyflieServer*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<crazyflie_interfaces::srv::NotifySetpointsStop_Request_<std::allocator<void> > >, std::shared_ptr<crazyflie_interfaces::srv::NotifySetpointsStop_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<crazyflie_interfaces::srv::NotifySetpointsStop> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.632s]   759 |     service_notify_setpoints_stop_ = [01;35m[Kthis->create_service<NotifySetpointsStop>("all/notify_setpoints_stop", std::bind(&CrazyflieServer::notify_setpoints_stop, this, _1, _2), service_qos, callback_group_all_srv_)[m[K;
+[11.632s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.632s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[11.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[11.633s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[11.633s]                  from [01m[K/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/src/crazyflie_server.cpp:7[m[K:
+[11.633s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:190:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.633s]   190 | [01;36m[KNode[m[K::create_service(
+[11.633s]       | [01;36m[K^~~~[m[K
+[15.239s] [ 97%] [32m[1mLinking CXX executable teleop[0m
+[15.863s] [ 97%] Built target teleop
+[29.365s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[31.162s] [100%] Built target crazyflie_server
+[31.174s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[31.214s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie
+[31.220s] -- Install configuration: ""
+[31.221s] -- Execute custom install script
+[31.221s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/scan
+[31.229s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+[31.238s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[31.247s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+[31.255s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+[31.263s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/battery
+[31.271s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/version
+[31.279s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/console
+[31.287s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/log
+[31.295s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+[31.303s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+[31.311s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[31.319s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[31.332s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[31.341s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[31.349s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[31.358s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[31.366s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[31.374s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[31.382s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[31.390s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[31.398s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[31.406s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[31.414s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[31.424s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[31.432s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[31.439s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[31.447s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[31.455s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[31.464s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[31.474s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[31.483s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[31.494s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[31.502s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[31.511s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+[31.520s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[31.529s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[31.539s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[31.548s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.xml
+[31.560s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie

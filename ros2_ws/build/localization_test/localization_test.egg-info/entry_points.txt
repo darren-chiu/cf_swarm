@@ -1,0 +1,3 @@
+[console_scripts]
+localization_listener = localization_test.localization_listener:main
+

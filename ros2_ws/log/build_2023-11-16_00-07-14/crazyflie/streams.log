@@ -1,0 +1,73 @@
+[0.351s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target teleop[0m
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target crazyflieLinkCpp[0m
+[0.413s] [ 25%] Built target crazyflieLinkCpp
+[0.416s] [ 30%] Built target teleop
+[0.423s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_cpp[0m
+[0.438s] [ 38%] Built target crazyflie_cpp
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target listParams[0m
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target listLogVariables[0m
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target crazyflie_server[0m
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target scan[0m
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target reboot[0m
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target version[0m
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target battery[0m
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target console[0m
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target log[0m
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target listMemories[0m
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target setParam[0m
+[0.477s] [ 44%] Built target listParams
+[0.480s] [ 52%] Built target battery
+[0.481s] [ 66%] Built target reboot
+[0.481s] [ 66%] Built target listLogVariables
+[0.481s] [ 66%] Built target scan
+[0.481s] [ 72%] Built target listMemories
+[0.481s] [ 77%] Built target version
+[0.481s] [ 86%] Built target setParam
+[0.481s] [ 88%] Built target crazyflie_server
+[0.481s] [ 94%] Built target console
+[0.482s] [100%] Built target log
+[0.495s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[0.534s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie
+[0.540s] -- Install configuration: ""
+[0.541s] -- Execute custom install script
+[0.541s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/scan
+[0.541s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listParams
+[0.541s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/listMemories
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/reboot
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/battery
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/version
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/console
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/log
+[0.542s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/setParam
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/teleop
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[0.543s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[0.544s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[0.545s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[0.546s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[0.546s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[0.546s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[0.546s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[0.546s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv
+[0.556s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[0.556s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[0.556s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[0.556s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.xml
+[0.558s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/opt/ros/iron PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie

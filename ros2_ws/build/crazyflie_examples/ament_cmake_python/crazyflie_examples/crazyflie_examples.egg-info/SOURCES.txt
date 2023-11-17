@@ -4,7 +4,6 @@ crazyflie_examples/__init__.py
 crazyflie_examples/cmd_full_state.py
 crazyflie_examples/figure8.py
 crazyflie_examples/hello_world.py
-crazyflie_examples/localization_test.py
 crazyflie_examples/multi_trajectory.py
 crazyflie_examples/nice_hover.py
 crazyflie_examples/set_param.py

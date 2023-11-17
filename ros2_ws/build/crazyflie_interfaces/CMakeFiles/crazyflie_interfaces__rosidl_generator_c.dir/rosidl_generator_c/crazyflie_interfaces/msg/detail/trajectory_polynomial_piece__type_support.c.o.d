@@ -13,6 +13,7 @@ CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazy
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
+ /opt/ros/iron/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -24,24 +25,6 @@ CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazy
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h \
- /opt/ros/iron/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.h \
- /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
- /opt/ros/iron/include/rcutils/rcutils/allocator.h \
- /opt/ros/iron/include/rcutils/rcutils/macros.h \
- /opt/ros/iron/include/rcutils/rcutils/types/rcutils_ret.h \
- /opt/ros/iron/include/rcutils/rcutils/visibility_control.h \
- /opt/ros/iron/include/rcutils/rcutils/visibility_control_macros.h \
- /opt/ros/iron/include/rcutils/rcutils/sha256.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -70,4 +53,21 @@ CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazy
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/iron/include/rcutils/rcutils/allocator.h \
+ /opt/ros/iron/include/rcutils/rcutils/macros.h \
+ /opt/ros/iron/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/iron/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/iron/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/iron/include/rcutils/rcutils/sha256.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/iron/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+ /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/rosidl_generator_c/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.h

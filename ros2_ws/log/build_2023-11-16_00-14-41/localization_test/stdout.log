@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing localization_test.egg-info/PKG-INFO
+writing dependency_links to localization_test.egg-info/dependency_links.txt
+writing entry points to localization_test.egg-info/entry_points.txt
+writing requirements to localization_test.egg-info/requires.txt
+writing top-level names to localization_test.egg-info/top_level.txt
+reading manifest file 'localization_test.egg-info/SOURCES.txt'
+writing manifest file 'localization_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages/localization-test.egg-link (link to .)
+
+Installed /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test
+running install_data
