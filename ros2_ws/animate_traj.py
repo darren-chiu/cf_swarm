@@ -61,8 +61,8 @@ def update(frame):
     ax.set_title('Trajectory and Red Arrow from Quaternion Axis')
 
     # Set initial view angle facing the red arrow
-    ax.view_init(elev=30, azim=90)  # Adjust the elevation and azimuth angles as needed
-    ax.view_init(elev=15, azim=0)
+    # ax.view_init(elev=30, azim=90)  # Adjust the elevation and azimuth angles as needed
+    ax.view_init(elev=15, azim=45)
 
     # Calculate and update Euler angles from quaternion
     euler_angles = rot.as_euler('xyz', degrees=True)    
