@@ -6,6 +6,7 @@ import argparse
 from zlib import crc32
 import struct
 import numpy as np
+import csv
 
 # extract null-terminated string
 def _get_name(data, idx):
@@ -93,10 +94,31 @@ def decode(filename):
 
     return result
 
+def toCSV(data, filename):
+   
+    keys = list(data.keys())
+    arrays = list(data.values())
+
+    # Determine the number of rows in the CSV (based on the length of arrays)
+    num_rows = len(arrays[0])
+
+    # Create CSV file and write data
+    with open('output_columns.csv', mode='w', newline='') as file:
+        writer = csv.writer(file)
+        
+        # Write header row
+        writer.writerow(keys)
+        
+        # Write data rows
+        for i in range(num_rows):
+            row = [array[i] for array in arrays]
+            writer.writerow(row)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("filename")
     args = parser.parse_args()
     data = decode(args.filename)
-    print(data)
+    toCSV(data["fixedFrequency"], args.filename)
+    # print(data["fixedFrequency"])
