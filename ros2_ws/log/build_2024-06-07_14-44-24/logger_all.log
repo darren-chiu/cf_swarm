@@ -1,0 +1,993 @@
+[0.820s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.820s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e3564caaec0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e3564c40d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e3564c40d30>>)
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.862s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darren/Documents/cf_swarm/ros2_ws'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ignore_ament_install'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ros'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['cmake', 'python']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'cmake'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'python'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['python_setup_py']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'python_setup_py'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'colcon_pkg'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['colcon_meta']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'colcon_meta'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['ros']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'ros'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['cmake', 'python']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'cmake'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'python'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extensions ['python_setup_py']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/cache) by extension 'python_setup_py'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ros'
+[0.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie' with type 'ros.ament_cmake' and name 'crazyflie'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['colcon_pkg']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_examples' with type 'ros.ament_cmake' and name 'crazyflie_examples'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_interfaces' with type 'ros.ament_cmake' and name 'crazyflie_interfaces'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_py' with type 'ros.ament_python' and name 'crazyflie_py'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_sim' with type 'ros.ament_cmake' and name 'crazyflie_sim'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ros'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['cmake', 'python']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'cmake'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'python'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['python_setup_py']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'python_setup_py'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ignore_ament_install'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ros'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['cmake', 'python']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'cmake'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'python'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['python_setup_py']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'python_setup_py'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ignore_ament_install'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ros'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['cmake', 'python']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'cmake'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'python'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['python_setup_py']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'python_setup_py'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ros'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['cmake', 'python']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'cmake'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'python'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['python_setup_py']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'python_setup_py'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ros'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['cmake', 'python']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'cmake'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'python'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['python_setup_py']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'python_setup_py'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ros'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['cmake', 'python']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'cmake'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'python_setup_py'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'colcon_pkg'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['colcon_meta']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'colcon_meta'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['ros']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ros'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['cmake', 'python']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'cmake'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'python_setup_py'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/localization_test) by extension 'ros'
+[0.887s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/localization_test' with type 'ros.ament_python' and name 'localization_test'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ignore'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['colcon_pkg']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ros'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['cmake', 'python']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'cmake'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'python'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['python_setup_py']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'python_setup_py'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ros'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['cmake', 'python']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'cmake'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'python'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['python_setup_py']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'python_setup_py'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ros'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['cmake', 'python']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'cmake'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'python'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['python_setup_py']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'python_setup_py'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ignore', 'ignore_ament_install']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ros'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['cmake', 'python']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'cmake'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['python_setup_py']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python_setup_py'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore_ament_install'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_pkg']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_pkg'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_meta'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ros']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ros'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['cmake', 'python']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'cmake'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['python_setup_py']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python_setup_py'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ros'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['cmake', 'python']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'cmake'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['python_setup_py']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python_setup_py'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ros'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['cmake', 'python']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'cmake'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['python_setup_py']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python_setup_py'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore_ament_install'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_pkg']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ros'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['cmake', 'python']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'cmake'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['python_setup_py']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python_setup_py'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ros'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['cmake', 'python']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'cmake'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['python_setup_py']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python_setup_py'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ros'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['cmake', 'python']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'cmake'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['python_setup_py']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python_setup_py'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ros'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['cmake', 'python']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'cmake'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['python_setup_py']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python_setup_py'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore_ament_install'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_pkg']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_pkg'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_meta']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_meta'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ros']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ros'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['cmake', 'python']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'cmake'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['python_setup_py']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python_setup_py'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore_ament_install'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_pkg']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_pkg'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_meta']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_meta'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ros']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ros'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['cmake', 'python']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'cmake'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['python_setup_py']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python_setup_py'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore_ament_install'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_pkg']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_pkg'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_meta']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_meta'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ros']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ros'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['cmake', 'python']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'cmake'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['python_setup_py']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python_setup_py'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ignore', 'ignore_ament_install']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore_ament_install'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_pkg']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_pkg'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_meta']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_meta'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ros']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ros'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['cmake', 'python']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'cmake'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['python_setup_py']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python_setup_py'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore_ament_install'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_pkg']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_meta'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ros']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ros'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['cmake', 'python']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'cmake'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['python_setup_py']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python_setup_py'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore_ament_install'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_pkg']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ros'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['cmake', 'python']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'cmake'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['python_setup_py']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python_setup_py'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ignore_ament_install'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['colcon_pkg']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'colcon_pkg'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['colcon_meta']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'ros'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['cmake', 'python']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'cmake'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'python'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extensions ['python_setup_py']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking) by extension 'python_setup_py'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore_ament_install'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_pkg']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_pkg'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_meta']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_meta'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extensions ['ros']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking) by extension 'ros'
+[0.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_capture_tracking/motion_capture_tracking' with type 'ros.ament_cmake' and name 'motion_capture_tracking'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore_ament_install'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_pkg']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_pkg'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_meta']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ros'
+[0.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_capture_tracking/motion_capture_tracking_interfaces' with type 'ros.ament_cmake' and name 'motion_capture_tracking_interfaces'
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.010s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_target' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'localization_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.022s] DEBUG:colcon.colcon_core.verb:Building package 'localization_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/localization_test', 'symlink_install': True, 'test_result_base': None}
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.033s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.033s] DEBUG:colcon.colcon_core.verb:Building package 'motion_capture_tracking_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_cache' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.045s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie', 'symlink_install': True, 'test_result_base': None}
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_args' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target' from command line to 'None'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.056s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.057s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.057s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_py', 'symlink_install': True, 'test_result_base': None}
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.068s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_sim', 'symlink_install': True, 'test_result_base': None}
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_target' from command line to 'None'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[1.080s] Level 5:colcon.colcon_core.verb:set package 'motion_capture_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.080s] DEBUG:colcon.colcon_core.verb:Building package 'motion_capture_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking', 'symlink_install': True, 'test_result_base': None}
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.091s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.091s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples', 'merge_install': False, 'path': '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_examples', 'symlink_install': True, 'test_result_base': None}
+[1.103s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.115s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces' with build type 'ament_cmake'
+[1.115s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_interfaces'
+[1.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces' with build type 'ament_cmake'
+[1.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces'
+[1.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.179s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/localization_test' with build type 'ament_python'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_test', 'ament_prefix_path')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/ament_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/ament_prefix_path.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/ament_prefix_path.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces -- -j16 -l16
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[1.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/localization_test'
+[1.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/build --no-deps install_data
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_test', 'pythonpath_develop')
+[3.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages: /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/build --no-deps install_data
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/share/localization_test/hook/pythonpath_develop.ps1'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/share/localization_test/hook/pythonpath_develop.dsv'
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/build/localization_test/share/localization_test/hook/pythonpath_develop.sh'
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test' for CMake module files
+[3.265s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test' for CMake config files
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib'
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/bin'
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/pkgconfig/localization_test.pc'
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/lib/python3.10/site-packages'
+[3.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_test', 'pythonpath')
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/pythonpath.ps1'
+[3.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/pythonpath.dsv'
+[3.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/hook/pythonpath.sh'
+[3.330s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/bin'
+[3.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_test)
+[3.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/package.ps1'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/package.dsv'
+[3.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/package.sh'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/package.bash'
+[3.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/localization_test/package.zsh'
+[3.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/localization_test/share/colcon-core/packages/localization_test)
+[5.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[6.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces
+[7.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking_interfaces)
+[7.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces
+[7.104s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake module files
+[7.105s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake config files
+[7.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'cmake_prefix_path')
+[7.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.ps1'
+[7.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.dsv'
+[7.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.sh'
+[7.123s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib'
+[7.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'ld_library_path_lib')
+[7.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.ps1'
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.dsv'
+[7.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.sh'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/pkgconfig/motion_capture_tracking_interfaces.pc'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages'
+[7.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'pythonpath')
+[7.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.ps1'
+[7.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.dsv'
+[7.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.sh'
+[7.161s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[7.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.ps1'
+[7.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv'
+[7.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.sh'
+[7.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.bash'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.zsh'
+[7.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/colcon-core/packages/motion_capture_tracking_interfaces)
+[7.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking_interfaces)
+[7.302s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake module files
+[7.303s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces' for CMake config files
+[7.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'cmake_prefix_path')
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.ps1'
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.dsv'
+[7.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/cmake_prefix_path.sh'
+[7.323s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib'
+[7.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'ld_library_path_lib')
+[7.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.ps1'
+[7.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.dsv'
+[7.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/ld_library_path_lib.sh'
+[7.337s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[7.337s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/pkgconfig/motion_capture_tracking_interfaces.pc'
+[7.337s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages'
+[7.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking_interfaces', 'pythonpath')
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.ps1'
+[7.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.dsv'
+[7.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/hook/pythonpath.sh'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/bin'
+[7.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.ps1'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.sh'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.bash'
+[7.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.zsh'
+[7.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/share/colcon-core/packages/motion_capture_tracking_interfaces)
+[7.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking' with build type 'ament_cmake'
+[7.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking'
+[7.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking -- -j16 -l16
+[9.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces -- -j16 -l16
+[10.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces
+[10.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[10.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces
+[10.417s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces' for CMake module files
+[10.418s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces' for CMake config files
+[10.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[10.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[10.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[10.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[10.443s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib'
+[10.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[10.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[10.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[10.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/bin'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[10.468s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[10.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'pythonpath')
+[10.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.ps1'
+[10.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.dsv'
+[10.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.sh'
+[10.492s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/bin'
+[10.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[10.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[10.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[10.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[10.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[10.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[11.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[11.207s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces' for CMake module files
+[11.208s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces' for CMake config files
+[11.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[11.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[11.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[11.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[11.235s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib'
+[11.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[11.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[11.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[11.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[11.259s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/bin'
+[11.260s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[11.260s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[11.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'pythonpath')
+[11.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.ps1'
+[11.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.dsv'
+[11.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/pythonpath.sh'
+[11.280s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/bin'
+[11.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[11.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[11.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[11.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[11.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[11.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[11.299s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_py' with build type 'ament_python'
+[11.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'ament_prefix_path')
+[11.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.ps1'
+[11.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.dsv'
+[11.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.sh'
+[11.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.347s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie' with build type 'ament_cmake'
+[11.347s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie'
+[11.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_sim' with build type 'ament_cmake'
+[11.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_sim'
+[11.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.762s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_py'
+[11.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[11.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[12.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[12.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[12.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim
+[12.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[12.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim
+[12.882s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim' for CMake module files
+[12.883s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim' for CMake config files
+[12.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[12.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[12.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[12.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[12.908s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib'
+[12.908s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/bin'
+[12.908s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[12.908s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[12.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'pythonpath')
+[12.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.ps1'
+[12.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.dsv'
+[12.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.sh'
+[12.934s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/bin'
+[12.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[12.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[12.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[12.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[12.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[12.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[13.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[13.059s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim' for CMake module files
+[13.060s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim' for CMake config files
+[13.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[13.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[13.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[13.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[13.078s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib'
+[13.078s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/bin'
+[13.078s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[13.079s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[13.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'pythonpath')
+[13.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.ps1'
+[13.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.dsv'
+[13.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/hook/pythonpath.sh'
+[13.095s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/bin'
+[13.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[13.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[13.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[13.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[13.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[13.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[13.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'pythonpath_develop')
+[13.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/prefix_override:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[13.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.ps1'
+[13.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.dsv'
+[13.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py/share/crazyflie_py/hook/pythonpath_develop.sh'
+[13.191s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py' for CMake module files
+[13.192s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py' for CMake config files
+[13.192s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib'
+[13.193s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/bin'
+[13.193s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/pkgconfig/crazyflie_py.pc'
+[13.193s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages'
+[13.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'pythonpath')
+[13.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.ps1'
+[13.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.dsv'
+[13.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.sh'
+[13.216s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/bin'
+[13.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_py)
+[13.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.ps1'
+[13.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.dsv'
+[13.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.sh'
+[13.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.bash'
+[13.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/crazyflie_py/package.zsh'
+[13.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/share/colcon-core/packages/crazyflie_py)
+[13.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_examples' with build type 'ament_cmake'
+[13.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie_examples'
+[13.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[13.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples -- -j16 -l16
+[13.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples
+[14.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_examples)
+[14.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_py:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_examples
+[14.074s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples' for CMake module files
+[14.075s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples' for CMake config files
+[14.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'cmake_prefix_path')
+[14.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.ps1'
+[14.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.dsv'
+[14.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.sh'
+[14.098s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib'
+[14.098s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/bin'
+[14.098s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/pkgconfig/crazyflie_examples.pc'
+[14.099s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages'
+[14.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'pythonpath')
+[14.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.ps1'
+[14.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.dsv'
+[14.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.sh'
+[14.121s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/bin'
+[14.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.ps1'
+[14.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv'
+[14.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.sh'
+[14.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.bash'
+[14.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.zsh'
+[14.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/colcon-core/packages/crazyflie_examples)
+[14.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_examples)
+[14.235s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples' for CMake module files
+[14.236s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples' for CMake config files
+[14.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'cmake_prefix_path')
+[14.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.ps1'
+[14.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.dsv'
+[14.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.sh'
+[14.255s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib'
+[14.255s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/bin'
+[14.255s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/pkgconfig/crazyflie_examples.pc'
+[14.255s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/lib/python3.10/site-packages'
+[14.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'pythonpath')
+[14.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.ps1'
+[14.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.dsv'
+[14.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/hook/pythonpath.sh'
+[14.277s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/bin'
+[14.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.ps1'
+[14.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv'
+[14.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.sh'
+[14.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.bash'
+[14.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.zsh'
+[14.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_examples/share/colcon-core/packages/crazyflie_examples)
+[41.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking -- -j16 -l16
+[41.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking
+[41.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking)
+[41.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking
+[41.649s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking' for CMake module files
+[41.650s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking' for CMake config files
+[41.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking', 'cmake_prefix_path')
+[41.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.ps1'
+[41.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.dsv'
+[41.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.sh'
+[41.671s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib'
+[41.671s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/bin'
+[41.671s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib/pkgconfig/motion_capture_tracking.pc'
+[41.672s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib/python3.10/site-packages'
+[41.672s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/bin'
+[41.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.ps1'
+[41.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv'
+[41.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.sh'
+[41.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.bash'
+[41.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.zsh'
+[41.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/colcon-core/packages/motion_capture_tracking)
+[41.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_capture_tracking)
+[41.777s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking' for CMake module files
+[41.777s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking' for CMake config files
+[41.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_capture_tracking', 'cmake_prefix_path')
+[41.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.ps1'
+[41.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.dsv'
+[41.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/hook/cmake_prefix_path.sh'
+[41.792s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib'
+[41.792s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/bin'
+[41.792s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib/pkgconfig/motion_capture_tracking.pc'
+[41.792s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/lib/python3.10/site-packages'
+[41.792s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/bin'
+[41.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.ps1'
+[41.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv'
+[41.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.sh'
+[41.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.bash'
+[41.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.zsh'
+[41.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking/share/colcon-core/packages/motion_capture_tracking)
+[49.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie -- -j16 -l16
+[49.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie
+[49.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[49.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.10/site-packages:/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie
+[49.765s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie' for CMake module files
+[49.766s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie' for CMake config files
+[49.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[49.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[49.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[49.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[49.793s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib'
+[49.793s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/bin'
+[49.793s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[49.794s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/python3.10/site-packages'
+[49.794s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/bin'
+[49.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.ps1'
+[49.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv'
+[49.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.sh'
+[49.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.bash'
+[49.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.zsh'
+[49.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[49.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[49.913s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie' for CMake module files
+[49.914s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie' for CMake config files
+[49.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[49.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[49.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[49.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[49.933s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib'
+[49.933s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/bin'
+[49.933s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[49.933s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/lib/python3.10/site-packages'
+[49.934s] Level 1:colcon.colcon_core.environment:checking '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/bin'
+[49.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.ps1'
+[49.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.dsv'
+[49.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.sh'
+[49.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.bash'
+[49.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/crazyflie/package.zsh'
+[49.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[49.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[49.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[49.949s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[49.949s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[49.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[49.970s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[49.970s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darren/Documents/cf_swarm/ros2_ws/install/local_setup.ps1'
+[50.014s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darren/Documents/cf_swarm/ros2_ws/install/_local_setup_util_ps1.py'
+[50.017s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darren/Documents/cf_swarm/ros2_ws/install/setup.ps1'
+[50.031s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darren/Documents/cf_swarm/ros2_ws/install/local_setup.sh'
+[50.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darren/Documents/cf_swarm/ros2_ws/install/_local_setup_util_sh.py'
+[50.032s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darren/Documents/cf_swarm/ros2_ws/install/setup.sh'
+[50.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darren/Documents/cf_swarm/ros2_ws/install/local_setup.bash'
+[50.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darren/Documents/cf_swarm/ros2_ws/install/setup.bash'
+[50.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darren/Documents/cf_swarm/ros2_ws/install/local_setup.zsh'
+[50.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darren/Documents/cf_swarm/ros2_ws/install/setup.zsh'

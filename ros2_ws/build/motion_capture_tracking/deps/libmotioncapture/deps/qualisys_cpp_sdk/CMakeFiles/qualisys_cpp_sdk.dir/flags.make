@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -
 
 CXX_INCLUDES = -I/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk
 
-CXX_FLAGS = -fPIC -Wall -Wextra -Wpedantic -std=c++14
+CXX_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic -std=c++14
 

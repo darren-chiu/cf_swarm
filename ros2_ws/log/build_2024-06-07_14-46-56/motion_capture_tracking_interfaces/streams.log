@@ -1,0 +1,21 @@
+[0.074s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces
+[0.098s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.292s] Traceback (most recent call last):
+[0.292s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.293s]     from ament_package.templates import get_environment_hook_template_path
+[0.293s] ModuleNotFoundError: No module named 'ament_package'
+[0.304s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.304s]   execute_process(/usr/bin/python3.10
+[0.304s]   /opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.305s]   /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.305s]   returned error code 1
+[0.305s] Call Stack (most recent call first):
+[0.306s]   /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.306s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.306s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.306s]   CMakeLists.txt:13 (find_package)
+[0.306s] 
+[0.306s] [0m
+[0.307s] -- Configuring incomplete, errors occurred!
+[0.307s] See also "/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/CMakeFiles/CMakeOutput.log".
+[0.334s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/darren/Documents/cf_swarm/ros2_ws/install/motion_capture_tracking_interfaces

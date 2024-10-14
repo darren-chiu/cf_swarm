@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/add_logging__type_support.h"
 #include "crazyflie_interfaces/srv/detail/add_logging__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/add_logging__struct.h"
+#include "crazyflie_interfaces/srv/detail/add_logging__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_D
 
 CXX_INCLUDES = -I/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include -isystem /usr/include/pcl-1.12 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/eigen3 -isystem /usr/include/vtk-9.1 -isystem /usr/include/jsoncpp -isystem /usr/include/freetype2 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 
-CXX_FLAGS = -Wall -Wextra -Wpedantic -fPIC -std=gnu++14
+CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -Wpedantic -fPIC -std=gnu++14
 

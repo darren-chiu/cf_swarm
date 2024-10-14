@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/go_to__struct.h"
 #include "crazyflie_interfaces/srv/detail/go_to__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/go_to__type_support.h"
 
 #ifdef __cplusplus

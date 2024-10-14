@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "crazyflie_interfaces/srv/detail/upload_trajectory__functions.h"
 #include "crazyflie_interfaces/srv/detail/upload_trajectory__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/upload_trajectory__functions.h"
 #include "crazyflie_interfaces/srv/detail/upload_trajectory__struct.h"
 
 #ifdef __cplusplus

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/takeoff__functions.h"
-#include "crazyflie_interfaces/srv/detail/takeoff__struct.h"
 #include "crazyflie_interfaces/srv/detail/takeoff__type_support.h"
+#include "crazyflie_interfaces/srv/detail/takeoff__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "crazyflie_interfaces/srv/detail/takeoff__struct.h"
 
 #ifdef __cplusplus
 extern "C"

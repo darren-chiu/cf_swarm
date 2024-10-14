@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "autoconf.h": "c",
-        "stm32fxxx.h": "c"
+        "stm32fxxx.h": "c",
+        "estimator_complementary.h": "c",
+        "list": "c",
+        "cmath": "cpp",
+        "controller.h": "c",
+        "cfassert.h": "c"
     }
 }

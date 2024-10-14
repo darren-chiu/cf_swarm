@@ -263,19 +263,6 @@ libmotioncapture/fast:
 .PHONY : libmotioncapture/fast
 
 #=============================================================================
-# Target rules for targets named motioncapture
-
-# Build rule for target.
-motioncapture: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motioncapture
-.PHONY : motioncapture
-
-# fast build rule for target.
-motioncapture/fast:
-	$(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/motioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/motioncapture.dir/build
-.PHONY : motioncapture/fast
-
-#=============================================================================
 # Target rules for targets named motioncapture_example
 
 # Build rule for target.
@@ -803,7 +790,6 @@ help:
 	@echo "... libmotioncapture"
 	@echo "... librigidbodytracker"
 	@echo "... motion_capture_tracking_node"
-	@echo "... motioncapture"
 	@echo "... motioncapture_example"
 	@echo "... playclouds"
 	@echo "... qualisys_cpp_sdk"

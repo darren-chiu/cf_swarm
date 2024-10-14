@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "crazyflie_interfaces/msg/detail/position__struct.h"
 #include "crazyflie_interfaces/msg/detail/position__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/msg/detail/position__type_support.h"
-#include "crazyflie_interfaces/msg/detail/position__struct.h"
 
 #ifdef __cplusplus
 extern "C"

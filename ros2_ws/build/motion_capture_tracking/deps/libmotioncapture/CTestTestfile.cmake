@@ -7,4 +7,3 @@
 subdirs("deps/vicon-datastream-sdk")
 subdirs("deps/qualisys_cpp_sdk")
 subdirs("deps/vrpn")
-subdirs("deps/pybind11")

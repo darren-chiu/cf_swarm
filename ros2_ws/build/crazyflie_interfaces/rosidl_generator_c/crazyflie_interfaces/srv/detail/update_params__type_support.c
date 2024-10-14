@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/update_params__type_support.h"
 #include "crazyflie_interfaces/srv/detail/update_params__functions.h"
+#include "crazyflie_interfaces/srv/detail/update_params__type_support.h"
 #include "crazyflie_interfaces/srv/detail/update_params__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

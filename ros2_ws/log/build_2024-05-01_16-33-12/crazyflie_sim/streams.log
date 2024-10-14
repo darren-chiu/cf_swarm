@@ -1,0 +1,83 @@
+[0.396s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[0.475s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[0.482s] Built target ament_cmake_python_symlink_crazyflie_sim
+[0.870s] running egg_info
+[0.871s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.871s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.872s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.875s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.890s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.892s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.921s] running install_scripts
+[0.925s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.925s]   warnings.warn(
+[0.950s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[0.961s] running egg_info
+[0.963s] writing crazyflie_sim.egg-info/PKG-INFO
+[0.963s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[0.963s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[0.963s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[0.969s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[0.984s] Installing crazyflie_server script to scripts
+[1.083s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[1.108s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim -- -j16 -l16
+[1.160s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim
+[1.174s] -- Install configuration: ""
+[1.175s] -- Execute custom install script
+[1.177s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[1.178s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[1.179s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim-2.0.0-py3.10.egg-info/PKG-INFO
+[1.181s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim-2.0.0-py3.10.egg-info/SOURCES.txt
+[1.182s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim-2.0.0-py3.10.egg-info/dependency_links.txt
+[1.183s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim-2.0.0-py3.10.egg-info/entry_points.txt
+[1.185s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim-2.0.0-py3.10.egg-info/top_level.txt
+[1.187s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[1.188s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/__init__.py
+[1.190s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/backend/none.py
+[1.191s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/backend/np.py
+[1.192s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/crazyflie_server.py
+[1.193s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/crazyflie_sil.py
+[1.194s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/sim_data_types.py
+[1.195s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/README.md
+[1.196s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/blender.py
+[1.197s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/README.md
+[1.197s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[1.198s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[1.199s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[1.200s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[1.201s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[1.203s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/env.jpg
+[1.203s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[1.204s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[1.205s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[1.206s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[1.207s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[1.209s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[1.209s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[1.210s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/model/cf.obj
+[1.211s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/pdf.py
+[1.212s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/record_states.py
+[1.213s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/rviz.py
+[1.214s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[1.215s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[1.215s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[1.216s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[1.217s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[1.218s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[1.219s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[1.220s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[1.221s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[1.221s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[1.222s] -- Symlinking: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[1.223s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[1.224s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[1.225s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[1.226s] -- Up-to-date symlink: /home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[1.272s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim'...
+[1.273s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/backend'...
+[1.274s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization'...
+[1.275s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data'...
+[1.276s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/env'...
+[1.277s] Listing '/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_sim/lib/python3.10/site-packages/crazyflie_sim/visualization/data/model'...
+[1.295s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CMAKE_PREFIX_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib PYTHONPATH=/home/darren/Documents/cf_swarm/ros2_ws/install/crazyflie_interfaces/lib/python3.10/site-packages /usr/bin/cmake --install /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_sim

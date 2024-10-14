@@ -68,9 +68,9 @@ crazyflie_interfaces__srv__UploadTrajectory_Event__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h"
 #include "service_msgs/msg/detail/service_event_info__functions.h"
 #include "builtin_interfaces/msg/detail/duration__functions.h"
-#include "crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
 
 // Hashes for external referenced types

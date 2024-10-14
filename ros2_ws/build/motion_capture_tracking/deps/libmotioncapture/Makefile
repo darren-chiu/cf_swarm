@@ -186,20 +186,6 @@ libmotioncapture/fast:
 .PHONY : libmotioncapture/fast
 
 # Convenience name for target.
-deps/libmotioncapture/CMakeFiles/motioncapture.dir/rule:
-	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/libmotioncapture/CMakeFiles/motioncapture.dir/rule
-.PHONY : deps/libmotioncapture/CMakeFiles/motioncapture.dir/rule
-
-# Convenience name for target.
-motioncapture: deps/libmotioncapture/CMakeFiles/motioncapture.dir/rule
-.PHONY : motioncapture
-
-# fast build rule for target.
-motioncapture/fast:
-	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/motioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/motioncapture.dir/build
-.PHONY : motioncapture/fast
-
-# Convenience name for target.
 deps/libmotioncapture/CMakeFiles/motioncapture_example.dir/rule:
 	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deps/libmotioncapture/CMakeFiles/motioncapture_example.dir/rule
 .PHONY : deps/libmotioncapture/CMakeFiles/motioncapture_example.dir/rule
@@ -308,30 +294,6 @@ src/optitrack.s: src/optitrack.cpp.s
 src/optitrack.cpp.s:
 	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/optitrack.cpp.s
 .PHONY : src/optitrack.cpp.s
-
-src/python_bindings.o: src/python_bindings.cpp.o
-.PHONY : src/python_bindings.o
-
-# target to build an object file
-src/python_bindings.cpp.o:
-	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/motioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.o
-.PHONY : src/python_bindings.cpp.o
-
-src/python_bindings.i: src/python_bindings.cpp.i
-.PHONY : src/python_bindings.i
-
-# target to preprocess a source file
-src/python_bindings.cpp.i:
-	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/motioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.i
-.PHONY : src/python_bindings.cpp.i
-
-src/python_bindings.s: src/python_bindings.cpp.s
-.PHONY : src/python_bindings.s
-
-# target to generate assembly for a file
-src/python_bindings.cpp.s:
-	cd /home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking && $(MAKE) $(MAKESILENT) -f deps/libmotioncapture/CMakeFiles/motioncapture.dir/build.make deps/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.s
-.PHONY : src/python_bindings.cpp.s
 
 src/qualisys.o: src/qualisys.cpp.o
 .PHONY : src/qualisys.o
@@ -443,7 +405,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... libmotioncapture"
-	@echo "... motioncapture"
 	@echo "... motioncapture_example"
 	@echo "... examples/main.o"
 	@echo "... examples/main.i"
@@ -457,9 +418,6 @@ help:
 	@echo "... src/optitrack.o"
 	@echo "... src/optitrack.i"
 	@echo "... src/optitrack.s"
-	@echo "... src/python_bindings.o"
-	@echo "... src/python_bindings.i"
-	@echo "... src/python_bindings.s"
 	@echo "... src/qualisys.o"
 	@echo "... src/qualisys.i"
 	@echo "... src/qualisys.s"

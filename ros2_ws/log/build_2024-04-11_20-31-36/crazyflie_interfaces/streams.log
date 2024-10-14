@@ -1,0 +1,22 @@
+[0.073s] Invoking command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces -- -j16 -l16
+[0.120s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.289s] Traceback (most recent call last):
+[0.289s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.289s]     from ament_package.templates import get_environment_hook_template_path
+[0.289s] ModuleNotFoundError: No module named 'ament_package'
+[0.299s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.299s]   execute_process(/usr/bin/python3.10
+[0.299s]   /opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.299s]   /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.299s]   returned error code 1
+[0.300s] Call Stack (most recent call first):
+[0.300s]   /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.300s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.300s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.300s]   CMakeLists.txt:13 (find_package)
+[0.300s] 
+[0.300s] [0m
+[0.300s] -- Configuring incomplete, errors occurred!
+[0.300s] See also "/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces/CMakeFiles/CMakeOutput.log".
+[0.305s] gmake: *** [Makefile:5405: cmake_check_build_system] Error 1
+[0.307s] Invoked command in '/home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/darren/Documents/cf_swarm/ros2_ws/build/crazyflie_interfaces -- -j16 -l16

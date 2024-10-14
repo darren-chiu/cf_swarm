@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h"
+#include "motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h"
 #include "motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "crazyflie_interfaces/msg/detail/log_data_generic__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/msg/detail/log_data_generic__struct.h"
 #include "crazyflie_interfaces/msg/detail/log_data_generic__type_support.h"
+#include "crazyflie_interfaces/msg/detail/log_data_generic__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "crazyflie_interfaces/msg/detail/log_data_generic__functions.h"
 
 #ifdef __cplusplus
 extern "C"

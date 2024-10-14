@@ -6,5 +6,5 @@ C_DEFINES = -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DE
 
 C_INCLUDES = -I/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking/deps/libmotioncapture/deps/vrpn -I/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn -I/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/atmellib -I/home/darren/Documents/cf_swarm/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/quat
 
-C_FLAGS = -fPIC -Wall -Wextra -Wpedantic
+C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra -Wpedantic
 

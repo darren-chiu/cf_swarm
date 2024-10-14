@@ -6,5 +6,5 @@ C_DEFINES = -DROS_PACKAGE_NAME=\"motion_capture_tracking_interfaces\" -Dmotion_c
 
 C_INCLUDES = -I/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_c -I/home/darren/Documents/cf_swarm/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/iron/include/builtin_interfaces -isystem /opt/ros/iron/include/rosidl_runtime_c -isystem /opt/ros/iron/include/rcutils -isystem /opt/ros/iron/include/rosidl_typesupport_interface -isystem /opt/ros/iron/include/geometry_msgs -isystem /opt/ros/iron/include/std_msgs
 
-C_FLAGS = -fPIC -Wall -Wextra
+C_FLAGS = -O3 -DNDEBUG -fPIC -Wall -Wextra
 

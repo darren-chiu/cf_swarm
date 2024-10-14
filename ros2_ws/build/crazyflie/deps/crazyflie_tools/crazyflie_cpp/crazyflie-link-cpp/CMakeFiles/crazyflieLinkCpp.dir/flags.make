@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/darren/Documents/cf_swarm/ros2_ws/src/crazyswarm2/crazyflie/deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/include -I/usr/include/libusb-1.0
 
-CXX_FLAGS = -fPIC -fvisibility=hidden -Wall -Wextra -Werror -std=c++14
+CXX_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wextra -Werror -std=c++14
 

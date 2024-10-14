@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "crazyflie_interfaces/srv/detail/set_group_mask__type_support.h"
 #include "crazyflie_interfaces/srv/detail/set_group_mask__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/set_group_mask__type_support.h"
 #include "crazyflie_interfaces/srv/detail/set_group_mask__struct.h"
 
 #ifdef __cplusplus

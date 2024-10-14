@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.h"
 #include "crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.h"
+#include "crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.h"
 
 #ifdef __cplusplus
 extern "C"

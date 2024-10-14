@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "crazyflie_interfaces/msg/detail/hover__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/msg/detail/hover__type_support.h"
+#include "crazyflie_interfaces/msg/detail/hover__struct.h"
 #include "crazyflie_interfaces/msg/detail/hover__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

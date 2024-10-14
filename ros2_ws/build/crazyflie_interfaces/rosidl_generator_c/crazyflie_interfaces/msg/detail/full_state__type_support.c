@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "crazyflie_interfaces/msg/detail/full_state__functions.h"
 #include "crazyflie_interfaces/msg/detail/full_state__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/msg/detail/full_state__type_support.h"
-#include "crazyflie_interfaces/msg/detail/full_state__functions.h"
 
 #ifdef __cplusplus
 extern "C"

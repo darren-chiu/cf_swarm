@@ -82,6 +82,8 @@ max_serialized_size_RemoveLogging_Request(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -102,7 +104,20 @@ max_serialized_size_RemoveLogging_Request(
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = crazyflie_interfaces::srv::RemoveLogging_Request;
+    is_plain =
+      (
+      offsetof(DataType, topic_name) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _RemoveLogging_Request__cdr_serialize(
@@ -291,6 +306,8 @@ max_serialized_size_RemoveLogging_Response(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -302,10 +319,24 @@ max_serialized_size_RemoveLogging_Response(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = crazyflie_interfaces::srv::RemoveLogging_Response;
+    is_plain =
+      (
+      offsetof(DataType, success) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _RemoveLogging_Response__cdr_serialize(
@@ -602,6 +633,8 @@ max_serialized_size_RemoveLogging_Event(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -614,12 +647,15 @@ max_serialized_size_RemoveLogging_Event(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
       bool inner_full_bounded;
       bool inner_is_plain;
-      current_alignment +=
+      size_t inner_size =
         service_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_ServiceEventInfo(
         inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
       full_bounded &= inner_full_bounded;
       is_plain &= inner_is_plain;
     }
@@ -633,12 +669,15 @@ max_serialized_size_RemoveLogging_Event(
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
       bool inner_full_bounded;
       bool inner_is_plain;
-      current_alignment +=
+      size_t inner_size =
         crazyflie_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_RemoveLogging_Request(
         inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
       full_bounded &= inner_full_bounded;
       is_plain &= inner_is_plain;
     }
@@ -652,18 +691,34 @@ max_serialized_size_RemoveLogging_Event(
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
       bool inner_full_bounded;
       bool inner_is_plain;
-      current_alignment +=
+      size_t inner_size =
         crazyflie_interfaces::srv::typesupport_fastrtps_cpp::max_serialized_size_RemoveLogging_Response(
         inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
       full_bounded &= inner_full_bounded;
       is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = crazyflie_interfaces::srv::RemoveLogging_Event;
+    is_plain =
+      (
+      offsetof(DataType, response) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _RemoveLogging_Event__cdr_serialize(

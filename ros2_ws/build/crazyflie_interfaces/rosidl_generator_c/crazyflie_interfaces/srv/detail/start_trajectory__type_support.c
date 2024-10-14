@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "crazyflie_interfaces/srv/detail/start_trajectory__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/start_trajectory__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "crazyflie_interfaces/srv/detail/start_trajectory__type_support.h"
 
 #ifdef __cplusplus

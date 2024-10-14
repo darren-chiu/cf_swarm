@@ -50,7 +50,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -250,7 +250,7 @@ PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 //Name of the computer/site where compile is being run
-SITE:STRING=darren-B450-I-AORUS-PRO-WIFI
+SITE:STRING=darren-desktop
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/iron/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
